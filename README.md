@@ -11,3 +11,5 @@ imcount INT NOT NULL,KEY(imname(15)))character set = utf8;
 建立名为“image”的数据表。
 
 接下来即可运行路径为“./源码/FVRT_FrameStart.py”中的程序结合附带的指静脉样本运行。
+
+如有需要已编译为.exe的程序请联系QQ（982766639）。
