@@ -1,7 +1,7 @@
 ## Finger_Vein_Recognition
 本程序用于指静脉图像的识别，需与MySQL结合使用。
 
-# 使用说明：
+**使用说明：**
 一、MySQL准备   
 1.MySQL用户名设为“root”，密码设为“123456”。  
 2.建立名为“FVRT”的数据库。  
