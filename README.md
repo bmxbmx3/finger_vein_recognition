@@ -33,5 +33,32 @@ imcount INT NOT NULL,KEY(imname(15)))character set = utf8;
 <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E5%9B%BE%E5%83%8F%E8%BE%93%E5%87%BA%E7%95%8C%E9%9D%A2.png" width="60%" height="60%"/>
 
 ### 2. 指静脉图像匹配结果示例
-#### 2.1 待识别的图像_原图：“F0101.bmp”.bmp
+#### 2.1 待识别的图像_原图：“F0101.bmp”
 <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/1%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E5%8E%9F%E5%9B%BE%EF%BC%9A%E2%80%9CF0101.bmp%E2%80%9D.bmp" width="20%" height="20%"/>
+
+#### 2.2 待识别的图像_尺寸归一化
+<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/2%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E5%B0%BA%E5%AF%B8%E5%BD%92%E4%B8%80%E5%8C%96.bmp" width="20%" height="20%"/>
+
+#### 2.3 待识别的图像_灰度归一化
+<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/3%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E7%81%B0%E5%BA%A6%E5%BD%92%E4%B8%80%E5%8C%96.bmp" width="20%" height="20%"/>
+
+#### 2.4 待识别的图像_方向谷型检测
+<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/4%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E6%96%B9%E5%90%91%E8%B0%B7%E5%9E%8B%E6%A3%80%E6%B5%8B.bmp" width="20%" height="20%"/>
+
+#### 2.5 待识别的图像_模糊增强
+<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/5%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E6%A8%A1%E7%B3%8A%E5%A2%9E%E5%BC%BA.bmp" width="20%" height="20%"/>
+
+#### 2.6 待识别的图像_阈值分割
+<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/6%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E9%98%88%E5%80%BC%E5%88%86%E5%89%B2.bmp" width="20%" height="20%"/>
+
+#### 2.7 待识别的图像_去噪
+<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/7%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E5%8E%BB%E5%99%AA.bmp" width="20%" height="20%"/>
+
+#### 2.8 待识别的图像_细化
+<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/8%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E7%BB%86%E5%8C%96.bmp" width="20%" height="20%"/>
+
+#### 2.9 待识别的图像_去除残余斑点
+<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/9%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E5%8E%BB%E9%99%A4%E6%AE%8B%E4%BD%99%E6%96%91%E7%82%B9.bmp" width="20%" height="20%"/>
+
+#### 2.10 与之匹配的图像：“F0108.bmp”
+<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/10%E3%80%81%E4%B8%8E%E4%B9%8B%E5%8C%B9%E9%85%8D%E7%9A%84%E5%9B%BE%E5%83%8F%EF%BC%9A%E2%80%9CF0108.bmp%E2%80%9D.bmp" width="20%" height="20%"/>
