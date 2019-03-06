@@ -16,6 +16,6 @@ imcount INT NOT NULL,KEY(imname(15)))character set = utf8;
 路径为“./exe.win-amd64-3.5.7z”的文件为可执行文件，结合路径为“./指静脉样本”中附带的指静脉样本运行。
 
 ## 程序运行截图
-### 程序界面
-#### 主界面
+### 1. 程序界面
+#### 1.1 主界面
 <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E4%B8%BB%E7%95%8C%E9%9D%A2.png" width="60%" height="60%"/>
