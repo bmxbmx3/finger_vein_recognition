@@ -97,13 +97,13 @@ imcount INT NOT NULL,KEY(imname(15)))character set = utf8;
 
 <div align="center">
 <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/9%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E5%8E%BB%E9%99%A4%E6%AE%8B%E4%BD%99%E6%96%91%E7%82%B9.bmp" width="20%"/>
-  <br>待识别的图像_细化</br>
+  <br>待识别的图像_去除残余斑点</br>
   <br></br>
 </div> 
 
 <div align="center">
 <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/10%E3%80%81%E4%B8%8E%E4%B9%8B%E5%8C%B9%E9%85%8D%E7%9A%84%E5%9B%BE%E5%83%8F%EF%BC%9A%E2%80%9CF0108.bmp%E2%80%9D.bmp" width="20%"/>
-  <br>待识别的图像_细化</br>
+  <br>与之匹配的图像：“F0108.bmp”</br>
   <br></br>
 </div> 
 
