@@ -17,23 +17,32 @@ imcount INT NOT NULL,KEY(imname(15)))character set = utf8;
 
 ## 程序运行截图
 **一、程序界面**
-1. 主界面
-  <div align="center">
-  <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E4%B8%BB%E7%95%8C%E9%9D%A2.png" width="60%"/><br>主界面</div>
+ <div align="center">
+ <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E4%B8%BB%E7%95%8C%E9%9D%A2.png" width="60%"/>
+  <br>主界面
+</div>
 
-#### 1.2 图像匹配界面
-<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%95%8C%E9%9D%A2.png" width="60%"/>
+<div align="center">
+  <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%95%8C%E9%9D%A2.png" width="60%"/>
+  <br>图像匹配界面
+</div>
 
-#### 1.3 图像处理界面
-<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E7%95%8C%E9%9D%A2.png" width="60%"/>
+<div align="center">
+  <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E7%95%8C%E9%9D%A2.png" width="60%"/>
+  <br>图像处理界面
+</div>
 
-#### 1.4 图像输入界面
-<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E5%9B%BE%E5%83%8F%E8%BE%93%E5%85%A5%E7%95%8C%E9%9D%A2.png" width="60%"/>
+<div align="center">
+  <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E5%9B%BE%E5%83%8F%E8%BE%93%E5%85%A5%E7%95%8C%E9%9D%A2.png" width="60%"/>
+  <br>图像输入界面
+</div>
 
-#### 1.5 图像输出界面
-<img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E5%9B%BE%E5%83%8F%E8%BE%93%E5%87%BA%E7%95%8C%E9%9D%A2.png" width="60%"/>
+<div align="center">
+  <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E5%9B%BE%E5%83%8F%E8%BE%93%E5%87%BA%E7%95%8C%E9%9D%A2.png" width="60%"/>
+  <br>图像输出界面
+</div>
 
-### 2. 指静脉图像匹配结果示例
+**二、指静脉图像匹配结果示例**
 #### 2.1 待识别的图像_原图：“F0101.bmp”
 <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%8C%87%E9%9D%99%E8%84%89%E5%9B%BE%E5%83%8F%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C%E7%A4%BA%E4%BE%8B/1%E3%80%81%E5%BE%85%E8%AF%86%E5%88%AB%E7%9A%84%E5%9B%BE%E5%83%8F_%E5%8E%9F%E5%9B%BE%EF%BC%9A%E2%80%9CF0101.bmp%E2%80%9D.bmp" width="20%"/>
 
