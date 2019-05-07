@@ -19,7 +19,7 @@ imcount INT NOT NULL,KEY(imname(15)))character set = utf8;
 **一、程序界面**
  <div align="center">
  <img src="https://github.com/bmxbmx3/Finger_Vein_Recognition/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2/%E4%B8%BB%E7%95%8C%E9%9D%A2.png" width="60%"/>
-  <br>主界面
+  <br>主界面<br>
 </div>
 
 <div align="center">
